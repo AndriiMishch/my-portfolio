@@ -2,6 +2,53 @@ html {
     scroll-behavior: smooth;
 }
 
-.container {
-    height: 600px;
+:root {
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+body {
+  background-color: antiquewhite;
+  font-family: "Roboto", sans-serif;
+  color: rgb(45, 44, 42);
+}
+
+section {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    z-index: 1000;
 }
