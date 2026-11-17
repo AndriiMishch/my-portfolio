@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
 
 :root {
-
+    --Primary-background-color: #f8fafc;
+    --Primary-card-color: #ffffff;
+    --Primary-text-color: #1e293b;
+    --Secondary-text-color: #64748b;
+    --Accent-color: #2563eb;
+    --basic-margin: 120px;
+    --second-margin: 24px;
 }
 
 h1,
@@ -26,8 +34,8 @@ img {
 }
 
 body {
-  background-color: antiquewhite;
-  font-family: "Roboto", sans-serif;
+  background-color: var(--Primary-background-color);
+  font-family: "Inter", sans-serif;
   color: rgb(45, 44, 42);
 }
 
@@ -48,7 +56,27 @@ section {
 
 header {
     position: sticky;
+    display: flex;
     top: 0;
-    background-color: #333;
     z-index: 1000;
+    background-color: var(--Primary-card-color);
+    border-bottom: 1px solid var(--Accent-color);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
+    padding: 10px;
+    justify-content: space-between;
 }
+
+header>nav>a {
+    color: var(--Primary-text-color);
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+header>a {
+    color: var(--Primary-text-color);
+    text-decoration: none;
+    padding-right: 30px;
+}
+
