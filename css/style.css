@@ -46,7 +46,7 @@ section {
   padding-right: 15px;
 }
 
-.list {
+li {
   list-style: none;
 }
 
@@ -80,3 +80,15 @@ header>a {
     padding-right: 30px;
 }
 
+.hero-section {
+
+}
+
+.hero-about-me {
+    text-align: center;
+    max-width: 75%;
+}
+section {
+    padding-left: 20px;
+    display: flex;
+}
