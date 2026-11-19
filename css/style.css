@@ -1,3 +1,5 @@
+/* Basic */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 html {
@@ -50,10 +52,17 @@ li {
   list-style: none;
 }
 
-.link {
+a {
   text-decoration: none;
+  color: var(--Primary-text-color);
 }
 
+section {
+    padding-left: 20px;
+    display: flex;
+}
+
+/* Header */
 header {
     position: sticky;
     display: flex;
@@ -69,8 +78,6 @@ header {
 }
 
 header>nav>a {
-    color: var(--Primary-text-color);
-    text-decoration: none;
     padding-left: 10px;
 }
 
@@ -80,6 +87,8 @@ header>a {
     padding-right: 30px;
 }
 
+/* Hero section */
+
 .hero-section {
 
 }
@@ -88,7 +97,22 @@ header>a {
     text-align: center;
     max-width: 75%;
 }
-section {
-    padding-left: 20px;
-    display: flex;
+
+.hero-img {
+    max-width: 25%;
+}
+
+.occupation {
+    color: var(--Secondary-text-color);
+}
+
+.hero-description {
+    text-align: left;
+}
+
+.hero-links {
+}
+
+.hero-links>a {
+    padding: 15px;
 }
