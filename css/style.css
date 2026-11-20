@@ -108,11 +108,15 @@ header>a {
 
 .hero-description {
     text-align: left;
+    padding-top: 15px;
 }
 
 .hero-links {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .hero-links>a {
-    padding: 15px;
+    padding-left: 15px;
 }
+
